@@ -1,0 +1,309 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5tahoma, arial, \5b8b\4f53;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+    font-style: normal;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: couriernew, courier, monospace;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: rgba(249, 249, 249, 1);
+}
+
+.top {
+    width: 100%;
+    height: 30%;
+    background: #FFD666;
+    position: relative;
+    padding-top: 1.875rem;
+    box-sizing: border-box;
+}
+
+.top>img {
+    width: 2.125rem;
+    height: 1.25rem;
+    position: absolute;
+    top: 2rem;
+    left: .9375rem;
+}
+
+.top>h1 {
+    text-align: center;
+    font-size: 1.1875rem;
+    font-family: PingFang-SC-Bold;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px 0px rgba(51, 51, 51, 0.05);
+    border-radius: 10px;
+    height: 16.25rem;
+    position: relative;
+    top: -7.8125rem;
+    padding-top: .325rem;
+    box-sizing: border-box
+}
+
+.in {
+    width: 93%;
+    margin: 0 auto;
+    position: relative;
+    /* height: 100%; */
+    /* top: -0.9375rem */
+}
+
+.in1 {
+    width: 93%;
+    margin: 0 auto;
+    position: relative;
+    /* height: 100%; */
+}
+
+.left {
+    width: 50%;
+    height: 6.25rem;
+    float: left;
+}
+
+.right {
+    text-align: right;
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+
+.left>h2 {
+    font-size: .875rem;
+    font-family: PingFang-SC-Bold;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 1);
+}
+
+.left>.com {
+    width: 100%;
+    margin-top: .9375rem;
+}
+
+.left>.com>p {
+    font-size: .6875rem;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(153, 153, 153, 1);
+    margin-bottom: .3125rem;
+}
+
+.left>.com>p>span {
+    font-size: .6875rem;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #FFD666
+}
+
+.left>.com>p>.etc {
+    color: rgba(153, 153, 153, 1);
+    font-size: .6875rem;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+}
+
+.right>p {
+    font-size: .6875rem;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(153, 153, 153, 1);
+}
+
+.right>.ma {
+    width: 3.6875rem;
+    height: 3.6875rem;
+    border: 3px solid rgba(51, 51, 51, 1);
+    border-radius: 10px;
+    margin-top: 1rem;
+    float: right;
+    text-align: center;
+}
+
+.right>.ma>img {
+    width: 3.0625rem;
+    height: 3.0625rem;
+    margin-top: .3125rem;
+}
+
+.in>p {
+    font-size: .6875rem;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: #333333;
+    margin-top: .9375rem;
+    float: left;
+}
+
+.in>p>span {
+    font-size: .6875rem;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(255, 214, 102, 1);
+}
+
+.in>h5 {
+    font-size: .6875rem;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(255, 214, 102, 1);
+    float: left;
+}
+
+.in>h4 {
+    font-size: .6875rem;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    margin-top: .9375rem;
+    float: left;
+}
+
+.in>h1 {
+    width: 1.75rem;
+    font-size: .875rem;
+    font-family: PingFang-SC-Bold;
+    font-weight: bold;
+    color: rgba(153, 153, 153, 1);
+    margin: 0 auto;
+    margin-top: 1.875rem;
+    display: block;
+    position: absolute;
+    bottom: -15.25rem;
+    left: 50%;
+    margin-left: -0.875rem;
+}
+
+.success {
+    width: 90%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 10px 0px rgba(51, 51, 51, 0.05);
+    border-radius: 10px;
+    height: 9.7375rem;
+    position: relative;
+    top: -7.8125rem;
+    padding-top: .625rem;
+    box-sizing: border-box;
+    margin-top: .9375rem;
+}
+
+.in1>h4 {
+    position: absolute;
+    font-size: .6875rem;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    /* margin-top: 4rem; */
+    float: left;
+    bottom: -9rem;
+}

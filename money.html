@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>充值</title>
+    <link rel="stylesheet" href="css/money.css">
+</head>
+
+<body>
+    <div class="contain">
+        <div class="top">
+
+            <div class="first">
+                <div class="left">
+                    <img src="./img/returnbbb@2x.png" alt="">
+                </div>
+                <div class="right">
+                    充值记录
+                </div>
+                <h1>充值</h1>
+            </div>
+            <div class="seco">
+                <p>余额钱包（USDT）</p>
+                <h1>589.00</h1>
+            </div>
+            <div class="ka">
+                <div class="in">
+                    <h1>账户状态:已激活</h1>
+                    <button>激活</button>
+                    <form action="">
+                        <div class="left">
+                            <p>请输入充值的US数</p>
+                            <input type="text" placeholder="请输入数量" class="input1">
+                            <p>密码</p>
+                            <input type="text" placeholder="请输入密码" class="input2">
+                        </div>
+                        <div class="right">
+                            <p>支付方式</p>
+                            <select name="" id="">
+                                  <option value="USDT">USDT</option>
+                              </select>
+                            <p class="etc">USDT支付方式为ERC2.0</p>
+                            <span>附加码：354639</span>
+                        </div>
+                        <p>备注</p>
+                        <textarea name="" id="" cols="30" rows="10" class="input3" placeholder="想要说些什么。。。"></textarea>
+                        <button type="button">充值</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="ka2">
+            <div class="state">
+                <div class="left">
+                    <p>
+                        需要支付 <span>
+                        504.2800
+                    </span> USDT
+
+                    </p>
+                    <p>到账金额：504.28</p>
+                </div>
+                <div class="right">
+                    已完成
+                </div>
+            </div>
+            <div class="ma">
+                <div class="left">
+                    <p>充值地址：</p>
+                    <p class="etc1">0x42904537aEdC198952f3f600448b1f32316Ec30
+                    </p>
+                    <p class="etc">2019-07-21 14:47:28</p>
+                </div>
+                <div class="right">
+                    <p>充值二维码</p>
+                    <div class="xiu"> <img src="./img/dimensionalxxxx@2x.png" alt=""></div>
+                </div>
+            </div>
+            <p>备注我要写什么，我要写什么，啊啊啊啊啊啊</p>
+        </div>
+    </div>
+    <script src="./js/jquery.min.js">
+    </script>
+    <script src="./js/clipboard.min.js">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(".etc1").click(function() {
+                var clipboard = new ClipboardJS('.etc1', {
+                    target: function() {
+                        return document.querySelector('.etc1');
+                    }
+                });
+                clipboard.on('success', function(e) {
+                    alert("已复制到剪贴板")
+                });
+                clipboard.on('error', function(e) {
+                    alert('COPY ERROR!');
+                });
+            });
+        });
+    </script>
+</body>
+
+
+</html>

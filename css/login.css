@@ -1,0 +1,254 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5tahoma, arial, \5b8b\4f53;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+    font-style: normal;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: couriernew, courier, monospace;
+}
+
+small {
+    font-size: 12px;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #000;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding-top: 5.25rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.logo {
+    width: 7.5rem;
+    height: 6.375rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.bj {
+    position: absolute;
+    left: 0;
+    width: 3.125rem;
+    height: 12.8125rem;
+    bottom: 1.875rem;
+}
+
+.main {
+    width: 90%;
+    height: auto;
+    margin: 5.625rem auto 0rem auto;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.phone {
+    width: 100%;
+    height: 2.75rem;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 40px 0px rgba(51, 51, 51, 0.08);
+    border-radius: 1.375rem;
+    position: relative;
+    background: url(../img/account@2x.png) no-repeat;
+    background-size: 1.5rem 1.5rem;
+    background-position: 0.9375rem .625rem;
+}
+
+
+/* .phone>img {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: .625rem;
+    left: .9375rem;
+} */
+
+.phone[placeholder] {
+    font-size: 1rem;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(204, 204, 204, 1);
+    line-height: 1.5rem;
+    padding-left: 3.375rem;
+    box-sizing: border-box;
+}
+
+.pwd {
+    width: 100%;
+    height: 2.75rem;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 40px 0px rgba(51, 51, 51, 0.08);
+    border-radius: 1.375rem;
+    position: relative;
+    margin-top: 1.875rem;
+    background: url(../img/password@2x.png) no-repeat;
+    background-size: 1.5rem 1.5rem;
+    background-position: 0.9375rem .625rem;
+}
+
+
+/* .pwd>img {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: .625rem;
+    left: .9375rem;
+} */
+
+.pwd[placeholder] {
+    font-size: 1rem;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(204, 204, 204, 1);
+    line-height: 1.5rem;
+    padding-left: 3.375rem;
+    box-sizing: border-box;
+}
+
+p {
+    margin-top: .9375rem;
+    float: right;
+    font-size: 11px;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(249, 50, 81, 1);
+    clear: both;
+}
+
+.login {
+    margin-top: 3.6875rem;
+    width: 40%;
+    height: 2rem;
+    float: right;
+    line-height: 1.875rem;
+    clear: both;
+}
+
+.login>span {
+    font-size: 1rem;
+    font-family: PingFang-SC-Bold;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 1);
+    line-height: 1.875rem;
+    margin-right: 1rem;
+    float: right;
+}
+
+.login>button {
+    /* display: inline-block; */
+    float: right;
+    width: 3.6875rem;
+    height: 1.875rem;
+    background: rgba(255, 214, 102, 1);
+    box-shadow: 0px 4px 6px 0px rgba(255, 214, 102, 0.5);
+    border-radius: .9375rem;
+    line-height: 1.875rem;
+    text-align: center;
+}
+
+.login>button>img {
+    margin: 0 auto;
+    width: 2.125rem;
+    height: 1.25rem;
+    line-height: 1.875rem;
+    display: block;
+}

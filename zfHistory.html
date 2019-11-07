@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>支付历史</title>
+    <link rel="stylesheet" href="css/zfHistory.css">
+</head>
+
+<body>
+    <div class="top">
+        <img src="./img/returnbbb@2x.png" alt="">
+        <ul>
+            <li>
+                <p>USDT余额</p>
+                <h2>589.00</h2>
+            </li>
+            <li>
+                <p>USDT额度</p>
+                <h2>589.00</h2>
+            </li>
+        </ul>
+        <div class="xinxi">
+            <div class="left">
+                <div class="ma">
+                    <img src="./img/dimensionalxxxx@2x.png" alt="">
+                </div>
+                <p>正常</p>
+            </div>
+            <div class="center">
+                <p>本轮编号：V37D59</p>
+                <p>剩余额度：0</p>
+                <p>本轮状态：已结束</p>
+            </div>
+            <div class="right">
+                <button>接单US</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="main">
+
+        <div class="zhifu">
+            <div class="in">
+                <img src="./img/circles.gif" alt="">
+                <input type="text" placeholder="请输入支付额度">
+                <button type="button">支付US</button>
+                <button type="button">US历史</button>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <div class="in">
+                    <div class="title">
+                        <div class="left">
+                            <img src="./img/logoxxx@2x.png" alt="">
+                            <p>编号：V37D59</p>
+                        </div>
+                        <div class="right">
+                            已入账
+                        </div>
+                    </div>
+                    <p class="etc">收款总额：1027.14</p>
+                    <p>US流水汇总：1020 + 7.14</p>
+                    <p>提前结束（原始额度：1025）</p>
+                    <p>返还额度：5</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="foot">
+        <ul>
+            <li><img src="./img/assets@2x.png" alt="">
+                <p>资产</p>
+            </li>
+            <li><img src="./img/pushno@2x.png" alt="">
+                <p>直推</p>
+            </li>
+            <li><img src="./img/myno@2x.png" alt="">
+                <p>我的</p>
+            </li>
+
+        </ul>
+    </div>
+    <script src="__static__/index/js/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $(".foot li").eq(0).click(function() {
+                location.href = "/"
+                console.log("111")
+            })
+            $(".foot li").eq(1).click(function() {
+                location.href = "{:url('index/invite')}"
+                console.log("111")
+            })
+            $(".foot li").eq(2).click(function() {
+                location.href = "{:url('index/person')}"
+                console.log("111")
+            })
+        })
+    </script>
+</body>
+
+</html>
